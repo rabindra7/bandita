@@ -189,7 +189,7 @@ footer a:hover {
 
 /* Zoom on hover */
 #gallery .gallery-images img:hover {
-  transform: scale(1.2);
+  transform: scale(1.7);
   z-index: 2;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.26), 0 8px 24px rgba(255, 152, 0, 0.27);
 }
