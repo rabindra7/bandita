@@ -109,6 +109,8 @@ footer {
   padding: 32px 0 0 0;
   text-align: center;
   color: #1976d2;
+}
+
 /* Card styles for approach, impact, help */
 .container > div[style*="display: flex"] > div {
   transition: transform 0.18s, box-shadow 0.18s;
@@ -152,6 +154,37 @@ footer a:hover {
   color: #ff9800;
 }
 
+/* Gallery Section Styling */
+#gallery {
+  text-align: center;
+  padding: 20px;
+}
+
+#gallery h2 {
+  font-size: 2.2em;
+  color: #ff9800;
+  margin-bottom: 20px;
+}
+
+#gallery div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+#gallery img {
+  height: 250px; /* Current height */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(255, 152, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#gallery img:hover {
+  transform: scale(1.9); /* Zoom-in effect */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2), 0 4px 12px rgba(255, 152, 0, 0.2);
+}
+
 @media (max-width: 900px) {
   nav, .container {
     max-width: 98vw;
@@ -172,7 +205,6 @@ footer a:hover {
   .container {
     padding: 12px 2vw;
   }
-}
 }
 
 @media (max-width: 768px) {
